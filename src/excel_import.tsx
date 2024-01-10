@@ -90,7 +90,7 @@ export const ExcelImport: React.FC = () => {
   }
   const onImportExcel = (file) => {
     const mention = confirm(
-      "Please note: Currently, only append import is supported; the column names in the import file should be exactly the same as those in the table; the Computed, Member, Attachment and Link type field is not supported."
+      "Please note: The column names in the import file should be exactly the same as those in the table; the Computed, Member, Attachment and Link type field is not supported."
     );
 
     // Get the uploaded file object
