@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "APITable widget to import data from excel",
   "engines": {
     "node": ">=8.x"
